@@ -1,0 +1,55 @@
+@page
+@model Twilio.Example.Pages.DynamicNumber.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>DynamicNumber</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="DynamicNumber.DealerId" class="control-label"></label>
+                <select asp-for="DynamicNumber.DealerId" class="form-control" asp-items="ViewBag.DealerId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DynamicNumber.PhoneNumber" class="control-label"></label>
+                <input asp-for="DynamicNumber.PhoneNumber" class="form-control" />
+                <span asp-validation-for="DynamicNumber.PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DynamicNumber.NumberStatus" class="control-label"></label>
+                <select asp-for="DynamicNumber.NumberStatus"
+                    asp-items="Html.GetEnumSelectList<Twilio.Example.Models.Status>()" class="form-control">
+                    <option>Select type ...</option>
+                </select>
+                <span asp-validation-for="DynamicNumber.NumberStatus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DynamicNumber.LastUsedDate" class="control-label"></label>
+                <input asp-for="DynamicNumber.LastUsedDate" class="form-control" />
+                <span asp-validation-for="DynamicNumber.LastUsedDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DynamicNumber.ListingId" class="control-label"></label>
+                <select asp-for="DynamicNumber.ListingId" class="form-control" asp-items="ViewBag.ListingId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

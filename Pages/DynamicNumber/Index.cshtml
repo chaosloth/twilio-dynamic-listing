@@ -1,0 +1,60 @@
+@page
+@model Twilio.Example.Pages.DynamicNumber.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DynamicNumber[0].Dealer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DynamicNumber[0].PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DynamicNumber[0].NumberStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DynamicNumber[0].LastUsedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DynamicNumber[0].Listing)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DynamicNumber) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dealer.DealerId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumberStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastUsedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Listing.ListingId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.DynamicNumberId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.DynamicNumberId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.DynamicNumberId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

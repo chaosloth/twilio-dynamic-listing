@@ -1,0 +1,49 @@
+@page
+@model Twilio.Example.Pages.DynamicNumber.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>DynamicNumber</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DynamicNumber.Dealer)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DynamicNumber.Dealer.DealerId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DynamicNumber.PhoneNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DynamicNumber.PhoneNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DynamicNumber.NumberStatus)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DynamicNumber.NumberStatus)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DynamicNumber.LastUsedDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DynamicNumber.LastUsedDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DynamicNumber.Listing)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DynamicNumber.Listing.ListingId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.DynamicNumber?.DynamicNumberId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

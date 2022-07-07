@@ -1,0 +1,36 @@
+@page
+@model Twilio.Example.Pages.Listing.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Listing[0].Description)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Listing) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ListingId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ListingId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ListingId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,104 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Twilio.Example
+build_property.RootNamespace = Twilio.Example
+build_property.ProjectDir = /Users/cconnolly/Development/TwilioDynamicNumber/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/cconnolly/Development/TwilioDynamicNumber
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/Dealer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGVhbGVyL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/Dealer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGVhbGVyL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/Dealer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGVhbGVyL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/Dealer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGVhbGVyL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/Dealer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGVhbGVyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/DynamicNumber/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRHluYW1pY051bWJlci9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/DynamicNumber/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRHluYW1pY051bWJlci9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/DynamicNumber/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRHluYW1pY051bWJlci9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/DynamicNumber/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRHluYW1pY051bWJlci9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/DynamicNumber/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRHluYW1pY051bWJlci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/Listing/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlzdGluZy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/Listing/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlzdGluZy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/Listing/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlzdGluZy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/Listing/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlzdGluZy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/Listing/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlzdGluZy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cconnolly/Development/TwilioDynamicNumber/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-k9fp6cswq4
